@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>【究极态】省级教学能力大奖 - 高维动态评估大屏</title>
+    <!-- 加载核心样式 -->
+    <link rel="stylesheet" href="ultimate_style.css">
+    
+    <!-- 核心 ECharts -->
+    <script src="https://fastly.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <!-- 引入 ECharts GL 提供强大的 3D 渲染 -->
+    <script src="https://fastly.jsdelivr.net/npm/echarts-gl@2.0.9/dist/echarts-gl.min.js"></script>
+    
+    <!-- 预埋数据 -->
+    <script src="advanced_data.js"></script>
+</head>
+<body>
+    
+    <!-- 星空背景动效层 -->
+    <div id="stars"></div>
+
+    <div class="ultimate-wrapper">
+        <header class="cyber-header">
+            <h1 class="glitch" data-text="「国际商务谈判」多维时空教学效能全息舱">「国际商务谈判」多维时空教学效能全息舱</h1>
+            <p class="cyber-subtitle">省级高维数据中心 (3D Projection & Chrono-Animation)</p>
+        </header>
+
+        <div class="ultimate-grid">
+            
+            <!-- 大屏核心：时间轴动态演化 (时空穿梭) -->
+            <div class="cyber-panel wide-panel">
+                <div class="panel-tag">▶ 播放动画</div>
+                <h2 class="neon-title">时空折叠：全样本个态迁移演算系统 (Timeline Morphing)</h2>
+                <div class="desc">点击下方时间轴播放键，直观观看 152 位实证学生在“强介导”教学干预后，如何由左下（低维储备）向右上（高阶心智）发生物理级跃迁。</div>
+                <div id="timeline-chart" class="chart-container large-chart"></div>
+            </div>
+
+            <!-- 立体核心：3D 效能建模 -->
+            <div class="cyber-panel">
+                <div class="panel-tag">3D Engine</div>
+                <h2 class="neon-title">真·高维全息空间投影 (3D Spatial Scatter)</h2>
+                <div class="desc">支持漫游拖拽视角的真3D建模：X轴(能力), Y轴(价值观), Z轴(总测评分)。红色星云为课前，青色星团为课后教学成果。</div>
+                <div id="gl-chart" class="chart-container large-chart"></div>
+            </div>
+
+            <!-- 极坐标南丁格尔玫瑰矩阵 -->
+            <div class="cyber-panel">
+                <div class="panel-tag">Polar Array</div>
+                <h2 class="neon-title">南丁格尔教学剖面阵列 (Nightingale Rose Array)</h2>
+                <div class="desc">以极坐标扇形面积的膨胀张力，视觉化不同班级建制下的知识与觉悟的面积提档。</div>
+                <div id="rose-chart" class="chart-container large-chart"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- 逻辑织入 -->
+    <script src="ultimate_script.js"></script>
+</body>
+</html>
